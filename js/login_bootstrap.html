@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iniciando con bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h2 class="display-6 text-center mt-2">Login</h2>
+	</div>
+	<div class="countiner">
+		<div class="row mt-3">
+			<form>
+				<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-4">
+                <input type="text" id="usuario" placeholder="Usuario" 
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4">
+				<input type="password" id="password" placeholder="Password" class="btn-cyan"></div>
+				<div class="col-sm-12 col-md-6 col-lg-4">
+				<input type="submit" id="Usuario" value="Usuario" class="btn-warning" onclick="validar()">  </div>
+			</div>
+			</form>
+		</div>
+	</div>		
+	<script type="text/javascript">
+		function validar(){
+		var usuario = "grupo405";
+		var password = "programador";
+		var user = document.getElementById('Usuario').value;
+		var pass = document.getElementById('pass').value;
+		if(user ==" " || pass ==" " ){
+			alert("Por favor ingresa los datos correctos")
+
+		}
+		else{ 
+		if(usuario == user && password == pass){
+			alert("Bienvenido al mundo web"+usuario);
+		}
+		else{
+			alert("No eres un usuario");
+		}
+		
+	</script>
+
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

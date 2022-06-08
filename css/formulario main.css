@@ -1,0 +1,48 @@
+*{
+	padding: 10px;
+	background-color: #133;
+}
+.Titulo{
+	color: #fff;
+	text-align-last: center;
+	font-size: 70px;
+	background-color: #285
+}
+.Formulario{
+	width: 50%;
+	padding: 30px;
+	margin: auto;
+	background-color: #fff;
+	border-radius: 120px;
+
+}
+.formc{
+	background-color: #fff
+}
+.Caja{
+	background: transparent;
+	border-top: 2px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid #999
+	width: 90%;
+	padding: 10px;
+}
+.Caja:focus{
+	border-bottom: 2px solid yellow;
+	transition: 2s;
+}
+
+
+.btn{
+	background:transparent;
+	border:2px solid #000;
+	width: 95%;
+	margin: auto;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: #80; 
+	color: red;
+	border: 2px solid #233;
+}
